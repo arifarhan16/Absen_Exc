@@ -1,4 +1,4 @@
-<p align="left"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 <p align="center"><img src="https://scontent-lhr3-1.cdninstagram.com/v/t51.2885-15/e35/66805534_146103893240988_6865631396583561710_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&oh=b95924752492f46a8c83374d20ec6f2a&oe=5DF484B5&ig_cache_key=MjA4ODUzMzE1MTA0MjM2OTU1NQ%3D%3D.2" width="400"></p>
 
 <p align="center">
