@@ -1,6 +1,12 @@
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
 </p>
+
+## License
+
+This App Copyright @Arikun | 2019 
+
+
 ## Absen_Exercise
 Make With Love By Arikun
 
