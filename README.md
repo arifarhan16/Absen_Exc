@@ -17,6 +17,15 @@ THIS APPLICATION MUST STILL KEEP UPDATE
 
 This Application 100% Clear Bug
 
+## Features
+
+1. Intergrated With DataTable
+2. Upload / Download / Delete Photo's or Document's
+3. Crud 
+4. Refresh 
+5. Front end + Back end Use Bootstrap 4
+
+
 ## How To Use ?
 
 1. Download This Application
