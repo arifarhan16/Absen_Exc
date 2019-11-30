@@ -27,8 +27,8 @@ This Application 100% Clear Bug
 
 ## Thanks To
 
-Indosec
-BekasiSec
-IndramayuCyber
-SubangXploit
+Indosec | 
+BekasiSec | 
+IndramayuCyber | 
+SubangXploit | 
 IndoXploit
