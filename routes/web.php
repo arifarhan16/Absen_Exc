@@ -40,3 +40,4 @@ Route::get('/admin/lookimages/{id}', 'HomeController@dimg');
 
 
 Route::get('/admin/dokumen/{id}/hapus', 'HomeController@docdel');
+Route::get('/admin/lookimages/{id}/hapus', 'HomeController@imgdel');

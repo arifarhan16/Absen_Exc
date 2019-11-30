@@ -5,47 +5,64 @@
     <div class="row justify-content-center">
 @if(session('Sukses'))
 <script>
-    Swal.fire({
-  title: 'Success',
-  text: 'Data Sukses Di Kirim !',
+Swal.fire({
+  position: 'center',
   icon: 'success',
-  confirmButtonText: 'Okay'
+  title: 'Data Berhasil Di Kirim',
+  showConfirmButton: false,
+  timer: 1500
 })
 </script>
 @endif
 
 @if(session('Hapus'))
 <script>
-    Swal.fire({
-  title: 'Hapus',
-  text: 'Data Sukses Di Hapus !',
+Swal.fire({
+  position: 'center',
   icon: 'error',
-  confirmButtonText: 'Okay'
+  title: 'Data Berhasil Di Hapus',
+  showConfirmButton: false,
+  timer: 1500
 })
 </script>
 @endif
 
 @if(session('Edit'))
 <script>
-    Swal.fire({
-  title: 'info',
-  text: 'Data Sukses Di Edit !',
+Swal.fire({
+  position: 'center',
   icon: 'info',
-  confirmButtonText: 'Okay'
+  title: 'Data Berhail Di Edit',
+  showConfirmButton: false,
+  timer: 1500
 })
 </script>
 @endif
 
 @if(session('dokumen'))
 <script>
-    Swal.fire({
-  title: 'Success',
-  text: 'Dokumen Sukses Di Kirim !',
+Swal.fire({
+  position: 'center',
   icon: 'success',
-  confirmButtonText: 'Okay'
+  title: 'Dokumenmu Berhasil Di Upload',
+  showConfirmButton: false,
+  timer: 1500
 })
 </script>
 @endif
+
+@if(session('images'))
+<script>
+Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'Gambar Berhasil Di Upload',
+  showConfirmButton: false,
+  timer: 1500
+})
+</script>
+@endif
+
 
 @if(session('Proses'))
 <script>
@@ -184,7 +201,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
             @csrf
   <div class="form-group">
     <label for="exampleFormControlInput1">Nama</label>
-    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama" name="nama">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama" name="nama" required>
   </div>
 
   <div class="form-group">

@@ -2,6 +2,17 @@
 
 @section('content')
 <div class="container">
+    @if(session('imgdel'))
+<script>
+Swal.fire({
+  position: 'center',
+  icon: 'error',
+  title: 'Data Berhasil Di Hapus',
+  showConfirmButton: false,
+  timer: 1500
+})
+</script>
+@endif
     <div class="row-col-4">
                   <button type="button" class="btn btn-secondary" id="mabut"><i class="fa fa-refresh"></i>
 </button>
@@ -27,7 +38,7 @@
             <td>
 
         <a href="lookimages/{{$gambar->gambar}}" class="btn btn-warning"><i class="fa fa-download"></i></a>
-        <a href="admin/{{$gambar->id}}/hapus" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
+        <a href="lookimages/{{$gambar->id}}/hapus" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
             </td>
         </tr>
         @endforeach

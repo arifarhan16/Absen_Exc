@@ -75,4 +75,10 @@ public function download($doc){
       $data->delete($request->all());
       return redirect('/admin/dokumen')->with('deldoc', 'Dokumen Berhasil Di Hapus');
   }
+  public function imgdel(Request $request,$id)
+  {
+      $data = \App\Images::findOrFail($id);
+      $data->delete($request->all());
+      return redirect('/admin/lookimages')->with('imgdel', 'Gambar Berhasil Di Hapus');
+  }
 }

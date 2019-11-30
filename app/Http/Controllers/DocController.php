@@ -47,7 +47,7 @@ class DocController extends Controller
             $resorce->move(\base_path() ."/public/images", $name);
             $save = DB::table('images')->insert(['gambar' => $name]);
         
-            return redirect('/admin')->with('dokumen', 'Dokumen Berhasil Di Kirim!');
+            return redirect('/admin')->with('images', 'Dokumen Berhasil Di Kirim!');
         }
 }
 }
