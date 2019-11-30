@@ -2,11 +2,12 @@
 <div class="container">
     <?php if(session('imgdel')): ?>
 <script>
-    Swal.fire({
-  title: 'Hapus',
-  text: 'Gambar Telah Di Hapus',
+Swal.fire({
+  position: 'center',
   icon: 'error',
-  confirmButtonText: 'Okay'
+  title: 'Data Berhasil Di Hapus',
+  showConfirmButton: false,
+  timer: 1500
 })
 </script>
 <?php endif; ?>

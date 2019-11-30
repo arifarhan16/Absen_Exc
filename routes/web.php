@@ -21,7 +21,7 @@ Route::get('/contact', 'MylatController@contact');
 Route::get('/absen', 'MylatController@absen');
 Route::get('/usersList', 'userList@datatables');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/admin', 'HomeController@index');
 Route::post('/admin/tambah', 'HomeController@tambah');
