@@ -16,3 +16,19 @@ THIS APPLICATION MUST STILL KEEP UPDATE
 ## Bug
 
 This Application 100% Clear Bug
+
+## How To Use ?
+
+1. Download This Application
+2. Replace In HTDOCS / WWW (Laragon)
+3. Set Database (.env)
+4. Upload mylat.sql in mysql
+5. Done:)
+
+## Thanks To
+
+Indosec
+BekasiSec
+IndramayuCyber
+SubangXploit
+IndoXploit
