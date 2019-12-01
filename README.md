@@ -28,17 +28,18 @@ This Application 100% Clear Bug
 
 1. Intergrated With DataTable
 2. Intergrated With SwalFire
-3. Upload / Download / Delete Photo's or Document's
-4. Crud 
-5. Refresh 
-6. Front end + Back end Use Bootstrap 4
+3. Intergrated With Google Mail (GMAIL)
+4. Upload / Download / Delete Photo's or Document's
+5. Crud 
+6. Refresh 
+7. Front end + Back end Use Bootstrap 4
 
 
 ## How To Use ?
 
 1. Download This Application
 2. Replace In HTDOCS / WWW (Laragon)
-3. Set Database (.env)
+3. Rename And Set Database (.env)
 4. Upload mylat.sql in mysql
 5. Done:)
 
