@@ -57,6 +57,7 @@
   </header>
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Absen</h1>
+    <div class="table-responsive">
 <table id="tabel-data" class="table table-striped table-bordered" width="100%" cellspacing="0">
     <thead>
         <tr>
@@ -81,6 +82,7 @@
         @endforeach
     </tbody>
 </table>
+</div>
   </main>
   <footer class="mastfoot mt-auto">
     <div class="inner">

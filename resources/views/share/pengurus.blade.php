@@ -1,12 +1,12 @@
 @extends('layouts.header')
 @section('content')
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Pengurus</h1>
+    <h1 class="cover-heading">About</h1>
     <hr>
 <div class="container-fluid">
 <div class="row">
 <div class="col-12">
-<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+<div class="card card-inverse" style="background-color: transparent; border-color: transparent;">
 <div class="card-block">
 <div class="row">
 <div class="col-md-8 col-sm-8">
