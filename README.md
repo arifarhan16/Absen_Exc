@@ -41,7 +41,7 @@ This Application 100% Clear Bug
 1. Download This Application
 2. Replace In HTDOCS / WWW (Laragon)
 3. Rename And Set Database (.env)
-4. Upload mylat.sql in mysql
+4. Upload mylat.sql in mysql (USE YOUR BRAIN Dude)
 5. Done:)
 
 ## Thanks To
