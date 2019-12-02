@@ -34,6 +34,7 @@ This Application 100% Clear Bug
 6. Refresh 
 7. Front end + Back end Use Bootstrap 4
 8. Costume 404 Page 
+9. Costume Image Background 
 
 
 ## How To Use ?
