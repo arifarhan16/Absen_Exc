@@ -22,7 +22,7 @@ THIS APPLICATION MUST STILL KEEP UPDATE
 
 ## Bug
 
-This Application 100% Clear Bug
+Must Still Update
 
 ## Features
 
