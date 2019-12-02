@@ -21,6 +21,7 @@
 <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -39,7 +40,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
+    <link href="{{asset('css/xindex.css')}}" rel="stylesheet">
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -48,7 +49,7 @@
       <h3 class="masthead-brand">{{ config('app.name') }}</h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/pengurus">Pengurus</a>
+        <a class="nav-link" href="/about">About</a>
         <a class="nav-link" href="/contact">Contact</a>
         <a class="nav-link" href="/absen">Absen</a>
         <a class="nav-link" href="/login">Login</a>

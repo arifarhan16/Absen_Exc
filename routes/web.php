@@ -16,7 +16,7 @@
 // });
 
 Route::get('/', 'MylatController@index');
-Route::get('/pengurus', 'MylatController@pengurus');
+Route::get('/about', 'MylatController@pengurus');
 Route::get('/contact', 'MylatController@contact');
 Route::get('/absen', 'MylatController@absen');
 Route::get('/usersList', 'userList@datatables');

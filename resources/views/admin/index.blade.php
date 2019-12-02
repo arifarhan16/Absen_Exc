@@ -91,8 +91,8 @@ Swal.fire({
 </button>
 </div>
 </div>
-
-        <table id="tabel-data" class="table table-striped table-dark table-hover" width="100%" cellspacing="10" cellpadding="10">
+<div class="table-responsive">
+        <table id="tabel-data" class="table table-striped table-transparent table-hover" width="100%" cellspacing="10" cellpadding="10">
     <thead>
         <tr>
             <th><font color="white">No</font></th>
@@ -122,6 +122,7 @@ Swal.fire({
         @endforeach
     </tbody>
 </table>
+</div>
     </div>
 </div>
 </div>
@@ -131,7 +132,7 @@ Swal.fire({
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Images</h5>
+          <h5 class="modal-title" id="exampleModalLabel"><font color="black">Add Images</font></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -141,7 +142,7 @@ Swal.fire({
           <form method="post" action="admin/images" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="exampleFormControlFile1">Document</label>
+                <label for="exampleFormControlFile1"><font color="black">Document</font></label>
                 <input type="file" name="FileUpload" accept="image/*" class="form-control-file" id="exampleFormControlFile1">
               </div>
         </div>
@@ -159,7 +160,7 @@ Swal.fire({
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add Document</h5>
+          <h5 class="modal-title" id="exampleModalLabel"><font color="black">Add Document</font></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -169,7 +170,7 @@ Swal.fire({
           <form method="post" action="admin/doc" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="exampleFormControlFile1">Document</label>
+                <label for="exampleFormControlFile1"><font color="black">Document</font></label>
                 <input type="file" name="FileUpload" accept=
 "application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint,
 text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormControlFile1">
@@ -189,7 +190,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Tambah Absen</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><font color="black">Tambah Absen</font></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -200,12 +201,12 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
         <form method="post" action="/admin/tambah">
             @csrf
   <div class="form-group">
-    <label for="exampleFormControlInput1">Nama</label>
+    <label for="exampleFormControlInput1"><font color="black">Nama</font></label>
     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama" name="nama" required>
   </div>
 
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Kelas</label>
+    <label for="exampleFormControlSelect1"><font color="black">Kelas</font></label>
     <select class="form-control" id="exampleFormControlSelect1" name="kelas">
       <option value="XA">XA</option>
       <option value="XB">XB</option>
@@ -225,7 +226,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
   </div>
 
  <div class="form-group">
-    <label for="exampleFormControlSelect1">Tanggal</label>
+    <label for="exampleFormControlSelect1"><font color="black">Tanggal</font></label>
     <select class="form-control" id="exampleFormControlSelect1" name="tanggal">
       <option value="1">1</option>
       <option value="2">2</option>
@@ -264,7 +265,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
 
 
  <div class="form-group">
-    <label for="exampleFormControlSelect1">Bulan</label>
+    <label for="exampleFormControlSelect1"><font color="black">Bulan</font></label>
     <select class="form-control" id="exampleFormControlSelect1" name="bulan">
       <option value="Januari">Januari</option>
       <option value="Februari">Februari</option>
@@ -284,7 +285,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
 
 
  <div class="form-group">
-    <label for="exampleFormControlSelect1">Tahun</label>
+    <label for="exampleFormControlSelect1"><font color="black">Tahun</font></label>
     <select class="form-control" id="exampleFormControlSelect1" name="tahun">
       <option value="2019">2019</option>
       <option value="2020">2020</option>
@@ -294,7 +295,7 @@ text/plain, application/pdf, image/*" class="form-control-file" id="exampleFormC
   </div>
 
  <div class="form-group">
-    <label for="exampleFormControlSelect1">Alasan</label>
+    <label for="exampleFormControlSelect1"><font color="black">Alasan</font></label>
     <select class="form-control" id="exampleFormControlSelect1" name="kehadiran">
       <option value="Alfa">Alfa</option>
       <option value="Izin">Izin</option>
