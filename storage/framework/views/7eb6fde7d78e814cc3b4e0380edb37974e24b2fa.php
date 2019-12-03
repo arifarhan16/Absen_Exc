@@ -25,17 +25,17 @@
 <div class="col-md-4 col-sm-4 text-center">
 <h2><strong> 150 K </strong></h2>                    
 <p><small>Like</small></p>
-<button class="btn btn-primary btn-block btn-md">Like</button>
+<button class="btn btn-primary btn-block btn-md"><i class="fa fa-thumbs-up"></i> Like</button>
 </div>
 <div class="col-md-4 col-sm-4 text-center">
 <h2><strong>1.4K</strong></h2>                    
 <p><small>Following</small></p>
-<button class="btn btn-success btn-block btn-md">Follow</button>
+<button class="btn btn-success btn-block btn-md"><i class="fa fa-user-plus"></i> Follow</button>
 </div>
 <div class="col-md-4 col-sm-4 text-center">
 <h2><strong>151</strong></h2>                    
 <p><small>Subscriber</small></p>
-<a href="https://www.youtube.com/channel/UCFbBevg1ehRAAq4AbvVGXRg?sub_confirmation=1" style="text-decoration-line: none;"><button type="button" class="btn btn-danger btn-block btn-md">Subscribe</button></a>
+<a href="https://www.youtube.com/channel/UCFbBevg1ehRAAq4AbvVGXRg?sub_confirmation=1" style="text-decoration-line: none;"><button type="button" class="btn btn-danger btn-block btn-md"><i class="fab fa-youtube"></i> Subscribe</button></a>
 </div>
 </div>
 </div>

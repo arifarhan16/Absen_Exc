@@ -48,7 +48,7 @@
       <h3 class="masthead-brand"><?php echo e(config('app.name')); ?></h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/pengurus">Pengurus</a>
+        <a class="nav-link" href="/about">About</a>
         <a class="nav-link" href="/contact">Contact</a>
         <a class="nav-link" href="/absen">Absen</a>
         <a class="nav-link" href="/login">Login</a>
